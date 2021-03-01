@@ -1,0 +1,70 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+  font-family: 'Kumbh Sans', sans-serif;
+  background: url("/profile-card-component-main/images/bg-pattern-top.svg"), url("/profile-card-component-main/images/bg-pattern-bottom.svg");
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-color: hsl(185, 75%, 39%);
+  background-size: 50%;  
+}
+
+body > div{
+  margin: auto;
+  width: 300px;
+  background: url("/profile-card-component-main/images/bg-pattern-card.svg");
+  background-position: top;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  margin-top: 22vh;
+  padding: 6em 0 0 0;
+  border-radius: 10px;
+}
+
+div li{
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: center;
+}
+
+div li p:last-of-type{
+  font-size: 0.7em;
+  color: hsl(0, 0%, 59%)
+}
+
+body div div:last-of-type{
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid hsl(227, 10%, 46%);
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0.5em 0;
+
+}
+
+body div div:last-of-type > li + li{
+  margin-left: 2em;
+}
+
+body > div > p{
+  text-align: center;
+}
+
+body div div:first-of-type{
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/profile-card-component-main/images/image-victor.jpg");
+}
+
+footer{
+ margin-top: 15vh;
+}
